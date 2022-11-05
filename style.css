@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(icons/wallpaper.jpg);
+}
+
+.flex-div{
+    display: flex;
+    align-items: center;
+}
+
+.nav{
+    /* padding: 10px 2%; */
+    /* padding: 10px 0; */
+    justify-content: space-between;
+    background: #313030;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: 10;
+}
+
+.left-nav .windows-icon{
+    width: 25px;
+    padding: 10px 0;
+    margin-right: 17px;
+    margin-left: 15px;
+}
+
+.left-nav .search-box{
+    background: #fff;
+    margin-right: 15px;
+    padding: 0 12px;
+}
+
+.left-nav .search-box input{
+    width: 300px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    font-size: 17px;
+}
+
+.left-nav .search-icon{
+    margin-right: 12px;
+    width: 44px;
+}
+
+.left-nav .apps .firefox{
+    padding: 1%;
+}
+
+.left-nav .apps img{
+    width: 29px;
+    margin: 0 7px;
+}
+
+.right-nav{
+    justify-content: flex-end;
+    margin-right: 11px;
+}
+
+.right-nav img{
+    width: 25px;
+    margin: 0 5px;
+}
+
+/* .windows-popup{
+    bottom: -265px;
+    bottom: 45px;
+    transition: all 0.5s ease-in;
+    z-index: 110;
+} */
+
+.main-container{
+    background: #313030;
+    width: 47%;
+    height: 92vh;
+    position: absolute;
+    bottom: 0;
+}
+
+.side-links{
+    background: #313030;
+    box-shadow: 0.2px 0 5px #827d7d;
+    width: 15%;
+    height: 92vh;
+    position: absolute;
+    bottom: 0;
+    padding-top: 8px;
+    padding-left: 1%;
+    padding-bottom: 30px;
+}
+
+.side-links a{
+    display: flex;
+    width: fit-content;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: #fff;
+}
+
+.side-links a img{
+    width: 22px;
+    margin: 12px 0;
+}
+
+.side-links a p{
+    margin-left: 22px;
+    margin-top: 15px;
+}
+
+.stickDown{
+    margin-top: 260px;
+}
+
+.power{
+    width: 15%;
+    height: 17%;
+    background: rgb(27, 27, 27);
+    position: absolute;
+    bottom: 87px;
+    z-index: 110;
+    padding-left: 10px;
+}
+
+.power#hover{
+    cursor: pointer;
+}
+
+.power a{
+    color: #fff;
+    display: flex;
+    text-decoration: none;
+    justify-items: left;
+}
+
+.power a img{
+    width: 22px;
+    margin-top: 10px;
+}
+
+.power a p{
+    padding-left: 17px;
+    padding-top: 12px;
+}
+
+.small-popup{
+    height: 0vh;
+    width: 0;
+}
+
+.small-popup a img{
+    display: none;
+}
+
+.small-popup a p{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
